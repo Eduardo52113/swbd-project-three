@@ -1,0 +1,151 @@
+/* RESET CSS */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* Start of CSS RESET*/
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video{margin:0; padding:0; border:0; font:inherit; vertical-align: baseline }article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section{display:block} html{line-height:1} body{line-height:inherit} ol, ul{list-style:none} blockquote, q{quotes:none}blockquote:after, blockquote:before, q:after, q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+/* End of CSS reset*/
+
+body {
+  background: linear-gradient(#000000, #434343) fixed;
+  color: white;
+  font-size: 1.3em;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.2em;
+}
+
+#top-menu {
+  /*This the "Contact Information" on the website*/
+  padding: 1em;
+}
+#email, #social {
+  /*This the options under the "contact Information"*/
+  text-decoration: underline;
+  color: #7CFC00;
+}
+
+h1 {
+  /*h1 are needed for each article, but I don't.*/
+  /* display: none; */
+  padding: 1em;
+  font-size: 1.3em;
+}
+h2 {
+  text-decoration: underline;
+  font-size: 2em;
+}
+#introduction {
+  /**/
+  line-height: 1.5em;
+  margin-top: 5em;
+  text-align: center;
+}
+#short-intro {
+  /* This is the welcoming paragraph when visitors first see my site.*/
+  padding-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-size: 1.2em;
+}
+
+#options-list {
+  /* This is list of picture options "Cars, Robotics, Maker Space"*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.options {
+  /* These are the picture options themselves*/
+  max-width: 100%;
+}
+
+#first-section, #second-section, #third-section {
+  /* These are each section inside each article*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
+}
+#automotive {
+  /* This the entire automotive part of the site.*/
+  border-color: white;
+  margin-top: 6em;
+  border: solid;
+  background-color: gray;
+}
+.auto-paragraph {
+  /* This the automotive paragraphs*/
+  padding: 2em;
+}
+.auto-image {
+  /*image with the auto paragraph*/
+  max-width: 100%;
+}
+.auto-cap, .robot-cap, .maker-cap {
+  text-decoration: underline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
+  color: black;
+}
+
+.robot-cap {
+  color: white;
+}
+#robot {
+  /* This the entire robotics part of the site.*/
+  /* background-color: gray; */
+  /*background color is default to the body's color*/
+  border: solid;
+}
+.robot-paragraph {
+  /* This the robotics paragraphs*/
+  padding: 2em;
+}
+
+.hyper-link {
+  color: #7CFC00;
+}
+
+.robot-image {
+  /*image with the robotics paragraph*/
+  max-width: 100%;
+}
+
+#makerspace {
+  /* This the entire makerspace part of the site.*/
+  background-color: gray;
+  border: solid;
+}
+.maker-paragraph {
+  /*image with the makerspace paragraph*/
+  padding: 2em;
+}
+
+.maker-image {
+  /*image with the makerspace paragraph*/
+  max-width: 100%;
+}
+
+#foot {
+  /*images in the footer tag*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 5em;
+  max-width: 100%;
+}
+
+.foot-image {
+  max-width: 100%;
+}
