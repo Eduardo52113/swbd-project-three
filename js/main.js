@@ -14,16 +14,16 @@
 /*Their are three data types in JS
 numeric data, string data, Boolean data*/
 
-function sayHello(){
-  document.write('Well, Hello there');
-}
-
-sayHello();
+// function sayHello(){
+//   document.write('Well, Hello there');
+// }
+//
+// sayHello();
 
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
-/**/
+
 if (hourNow > 18){
   greeting = 'Good Evening!';
 } else if (hourNow > 12) {
