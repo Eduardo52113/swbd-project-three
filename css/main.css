@@ -84,13 +84,22 @@ h2 {
 
 
 /*-------Shared---------------------------------------*/
+#sub-section {
+  border: solid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 #sub-list {
+  border: solid;
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 1em;
 }
-li {
+.sub-option {
   padding: 1em;
 }
 
