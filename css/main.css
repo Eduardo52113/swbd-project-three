@@ -22,6 +22,7 @@ body {
 #top-menu {
   /*This the "Contact Information" on the website*/
   padding: 1em;
+  border: solid;
 }
 #email, #social {
   /*This the options under the "contact Information"*/
@@ -38,11 +39,14 @@ h1 {
 h2 {
   text-decoration: underline;
   font-size: 2em;
+  /* margin: 0.8em; */
 }
+/*-------Index CSS---------------------------------------------*/
 #introduction {
-  /**/
   line-height: 1.5em;
-  margin-top: 5em;
+  border: solid;
+  /* margin-top: 0.5em; */
+  padding: 0.5em;
   text-align: center;
 }
 #short-intro {
@@ -59,21 +63,40 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 1em;
+  /* padding: 1em; */
 }
 
 .options {
   /* These are the picture options themselves*/
   max-width: 100%;
 }
+/*-------End of Index CSS----------------------------------*/
 
-#first-section, #second-section, #third-section {
-  /* These are each section inside each article*/
+
+/*section positioning inside the articles*/
+/* #first-section, #second-section, #third-section {
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   overflow: auto;
+} */
+
+
+/*-------Shared---------------------------------------*/
+#sub-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em;
 }
+li {
+  padding: 1em;
+}
+
+
+
+/*------End of Shared---------------------------------*/
 
 /*-----------------Automotive's CSS-----------------*/
 #automotive {
@@ -98,6 +121,13 @@ h2 {
   justify-content: center;
   overflow: auto;
   color: black;
+}
+#first-section {
+  /* These are each section inside each article*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
 }
 /*-----------------End of Automotive's CSS------------------*/
 
@@ -125,6 +155,14 @@ h2 {
   /*image with the robotics paragraph*/
   max-width: 100%;
 }
+
+#second-section {
+  /* These are each section inside each article*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
+}
 /*------------------End of Robotics's CSS-------------------*/
 
 
@@ -144,6 +182,14 @@ h2 {
 .maker-image {
   /*image with the makerspace paragraph*/
   max-width: 100%;
+}
+
+#third-section {
+  /* These are each section inside each article*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
 }
 /*---------------End of MakerSpace's CSS---------------------*/
 
