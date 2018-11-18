@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-  /*h1 are needed for each article, but I don't.*/
+  /*h1 are needed for each article, but I don't need it for now.*/
   /* display: none; */
   padding: 1em;
   font-size: 1.3em;
@@ -74,6 +74,8 @@ h2 {
   justify-content: center;
   overflow: auto;
 }
+
+/*-----------------Automotive's CSS-----------------*/
 #automotive {
   /* This the entire automotive part of the site.*/
   border-color: white;
@@ -97,7 +99,10 @@ h2 {
   overflow: auto;
   color: black;
 }
+/*-----------------End of Automotive's CSS------------------*/
 
+
+/*------------------Robotics's CSS--------------------------*/
 .robot-cap {
   color: white;
 }
@@ -120,7 +125,12 @@ h2 {
   /*image with the robotics paragraph*/
   max-width: 100%;
 }
+/*------------------End of Robotics's CSS-------------------*/
 
+
+
+
+/*---------------MakerSpace's CSS---------------------------*/
 #makerspace {
   /* This the entire makerspace part of the site.*/
   background-color: gray;
@@ -135,7 +145,11 @@ h2 {
   /*image with the makerspace paragraph*/
   max-width: 100%;
 }
+/*---------------End of MakerSpace's CSS---------------------*/
 
+
+
+/*--------------------Footer's CSS---------------------------*/
 #foot {
   /*images in the footer tag*/
   display: flex;
@@ -149,3 +163,4 @@ h2 {
 .foot-image {
   max-width: 100%;
 }
+/*--------------------End of Footer's CSS--------------------*/
