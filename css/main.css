@@ -22,7 +22,7 @@ body {
 #top-menu {
   /*This the "Contact Information" on the website*/
   padding: 1em;
-  border: solid;
+  /* border: solid; */
 }
 #email, #social {
   /*This the options under the "contact Information"*/
@@ -44,7 +44,7 @@ h2 {
 /*-------Index CSS---------------------------------------------*/
 #introduction {
   line-height: 1.5em;
-  border: solid;
+  /* border: solid; */
   /* margin-top: 0.5em; */
   padding: 0.5em;
   text-align: center;
@@ -85,7 +85,7 @@ h2 {
 
 /*-------Shared---------------------------------------*/
 #sub-section {
-  border: solid;
+  /* border: solid; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -93,7 +93,7 @@ h2 {
 }
 
 #sub-list {
-  border: solid;
+  /* border: solid; */
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-around;
