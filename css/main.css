@@ -21,8 +21,14 @@ body {
 
 #top-menu {
   /*This the "Contact Information" on the website*/
-  padding: 1em;
-  /* border: solid; */
+  padding: 0.5em;
+  border: solid;
+}
+
+#contact-options {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 #email, #social {
   /*This the options under the "contact Information"*/
@@ -37,7 +43,8 @@ h1 {
   font-size: 1.3em;
 }
 h2 {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  line-height: 1em;
   font-size: 2em;
   /* margin: 0.8em; */
 }
@@ -45,7 +52,6 @@ h2 {
 #introduction {
   line-height: 1.5em;
   /* border: solid; */
-  /* margin-top: 0.5em; */
   padding: 0.5em;
   text-align: center;
 }
@@ -63,7 +69,6 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  /* padding: 1em; */
 }
 
 .options {
@@ -205,17 +210,17 @@ h2 {
 
 
 /*--------------------Footer's CSS---------------------------*/
-#foot {
+#foot-list {
   /*images in the footer tag*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 5em;
-  max-width: 100%;
+  justify-content: center;
+  /* border: solid; */
 }
 
 .foot-image {
-  max-width: 100%;
+  max-width: 45%;
+  /* border: solid; */
 }
 /*--------------------End of Footer's CSS--------------------*/
