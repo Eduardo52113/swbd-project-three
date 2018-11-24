@@ -261,7 +261,53 @@ h2 {
 /*---------------End of MakerSpace's CSS---------------------*/
 
 /*---------------Contact--------------------------------------*/
+#introduction {
+  line-height: 1.5em;
+  margin-top: 1em;
+  padding: 0.5em;
+  text-align: center;
+}
+#short-intro {
+  /* This is the welcoming paragraph when visitors first see my site.*/
+  padding-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-size: 1.2em;
+}
 
+#options-list {
+  /* This is list of picture options "Cars, Robotics, Maker Space"*/
+  border: solid;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: solid;
+}
 
+.options {
+  /* These are the picture options themselves*/
+  max-width: 100%;
+}
+.options:hover {
+  transform: scale(0.8);
+  transition: transform 0.1s ease-in;
+}
+#contact {
+  /* border: solid; */
+  border-radius: 1em;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
+#contact-link {
+  border: solid;
+  border-radius: 1em;
+  background-color: white;
+  text-decoration: underline;
+  padding: 1em 2em 1em 2em;
+}
 /*----------------End of Contact's CSS------------------------*/
