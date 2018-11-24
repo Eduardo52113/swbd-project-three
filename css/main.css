@@ -76,7 +76,7 @@ h2 {
 /*-------Index CSS---------------------------------------------*/
 #introduction {
   line-height: 1.5em;
-  /* border: solid; */
+  margin-top: 1em;
   padding: 0.5em;
   text-align: center;
 }
@@ -107,17 +107,25 @@ h2 {
   transform: scale(0.8);
   transition: transform 0.1s ease-in;
 }
-/*-------End of Index CSS----------------------------------*/
-
-
-/*section positioning inside the articles*/
-/* #first-section, #second-section, #third-section {
-
+#contact {
+  /* border: solid; */
+  border-radius: 1em;
+  margin-top: 2em;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
-  overflow: auto;
-} */
+}
+
+#contact-link {
+  border: solid;
+  border-radius: 1em;
+  background-color: white;
+  text-decoration: underline;
+  padding: 1em 2em 1em 2em;
+}
+
+
+/*-------End of Index CSS----------------------------------*/
 
 
 /*-------Shared---------------------------------------*/
@@ -148,6 +156,11 @@ h2 {
   background-color: white;
   transform: scale(0.8);
   transition: transform 0.1s ease-in;
+}
+
+#foot{
+  display: flex;
+  flex-flow: row;
 }
 
 /*------End of Shared---------------------------------*/
@@ -221,8 +234,6 @@ h2 {
 /*------------------End of Robotics's CSS-------------------*/
 
 
-
-
 /*---------------MakerSpace's CSS---------------------------*/
 #makerspace {
   /* This the entire makerspace part of the site.*/
@@ -254,20 +265,3 @@ h2 {
 
 
 /*----------------End of Contact's CSS------------------------*/
-
-
-/*--------------------Footer's CSS---------------------------*/
-#foot-list {
-  /*images in the footer tag*/
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  /* border: solid; */
-}
-
-.foot-image {
-  max-width: 45%;
-  /* border: solid; */
-}
-/*--------------------End of Footer's CSS--------------------*/
