@@ -25,15 +25,40 @@ body {
   border: solid;
 }
 
-#contact-options {
+#contact-list {
+  /* The content of the dropdown contact Information */
   display: inline-flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 1em;
 }
+
+.contact-options {
+  background-color: white;
+  border-radius: 2em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 1em 2em 1em 2em;
+}
+
+
+
 #email, #social {
   /*This the options under the "contact Information"*/
   text-decoration: underline;
   color: #7CFC00;
+}
+
+#contact-info {
+  /*The contact button*/
+  width: 9em;
+  background-color: white;
+  border-radius: 2em;
+  color: black;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 1em 2em 1em 2em;
 }
 
 h1 {
@@ -65,15 +90,22 @@ h2 {
 
 #options-list {
   /* This is list of picture options "Cars, Robotics, Maker Space"*/
+  border: solid;
+  border-radius: 1em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  border: solid;
 }
 
 .options {
   /* These are the picture options themselves*/
   max-width: 100%;
+}
+.options:hover {
+  transform: scale(0.8);
+  transition: transform 0.1s ease-in;
 }
 /*-------End of Index CSS----------------------------------*/
 
@@ -90,7 +122,8 @@ h2 {
 
 /*-------Shared---------------------------------------*/
 #sub-section {
-  /* border: solid; */
+  border: solid;
+  border-radius: 1em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -105,19 +138,26 @@ h2 {
   padding: 1em;
 }
 .sub-option {
-  padding: 1em;
+  border-radius: 2em;  /*this makes the "button curve"*/
+  padding: 1em 2em 1em  2em ;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  background-color: gray;
 }
-
-
+.sub-option:hover {
+  background-color: white;
+  transform: scale(0.8);
+  transition: transform 0.1s ease-in;
+}
 
 /*------End of Shared---------------------------------*/
 
 /*-----------------Automotive's CSS-----------------*/
 #automotive {
   /* This the entire automotive part of the site.*/
-  border-color: white;
-  margin-top: 6em;
   border: solid;
+  border-radius: 1em;
+  border-color: white;
   background-color: gray;
 }
 .auto-paragraph {
@@ -155,6 +195,7 @@ h2 {
   /* background-color: gray; */
   /*background color is default to the body's color*/
   border: solid;
+  border-radius: 1em;
 }
 .robot-paragraph {
   /* This the robotics paragraphs*/
@@ -185,8 +226,9 @@ h2 {
 /*---------------MakerSpace's CSS---------------------------*/
 #makerspace {
   /* This the entire makerspace part of the site.*/
-  background-color: gray;
   border: solid;
+  border-radius: 1em;
+  background-color: gray;
 }
 .maker-paragraph {
   /*image with the makerspace paragraph*/
@@ -207,6 +249,11 @@ h2 {
 }
 /*---------------End of MakerSpace's CSS---------------------*/
 
+/*---------------Contact--------------------------------------*/
+
+
+
+/*----------------End of Contact's CSS------------------------*/
 
 
 /*--------------------Footer's CSS---------------------------*/
