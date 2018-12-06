@@ -62,8 +62,6 @@ body {
 }
 
 h1 {
-  /*h1 are needed for each article, but I don't need it for now.*/
-  /* display: none; */
   padding: 1em;
   font-size: 1.3em;
 }
@@ -97,6 +95,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-around;
   border: solid;
+  padding-top: 1em;
 }
 
 .options {
@@ -168,7 +167,7 @@ h2 {
 /*-----------------Automotive's CSS-----------------*/
 #automotive {
   /* This the entire automotive part of the site.*/
-  border: solid;
+  /*border: solid;*/
   border-radius: 1em;
   border-color: white;
   background-color: gray;
@@ -207,7 +206,7 @@ h2 {
   /* This the entire robotics part of the site.*/
   /* background-color: gray; */
   /*background color is default to the body's color*/
-  border: solid;
+  /*border: solid;*/
   border-radius: 1em;
 }
 .robot-paragraph {
@@ -237,7 +236,7 @@ h2 {
 /*---------------MakerSpace's CSS---------------------------*/
 #makerspace {
   /* This the entire makerspace part of the site.*/
-  border: solid;
+  /*border: solid;*/
   border-radius: 1em;
   background-color: gray;
 }
@@ -277,7 +276,7 @@ h2 {
 
 #options-list {
   /* This is list of picture options "Cars, Robotics, Maker Space"*/
-  border: solid;
+  /*border: solid;*/
   border-radius: 1em;
   display: flex;
   flex-direction: row;
@@ -304,7 +303,7 @@ h2 {
 }
 
 #contact-link {
-  border: solid;
+  /*border: solid;*/
   border-radius: 1em;
   background-color: white;
   text-decoration: underline;
