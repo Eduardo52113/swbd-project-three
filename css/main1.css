@@ -62,12 +62,16 @@ body {
 }
 
 h1 {
+  /*h1 are needed for each article, but I don't need it for now.*/
+  /* display: none; */
   padding: 1em;
   font-size: 1.3em;
 }
 h2 {
+  /* text-decoration: underline; */
   line-height: 1em;
   font-size: 2em;
+  /* margin: 0.8em; */
 }
 /*-------Index CSS---------------------------------------------*/
 #introduction {
@@ -93,7 +97,6 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-around;
   border: solid;
-  padding-top: 1em;
 }
 
 .options {
@@ -105,6 +108,7 @@ h2 {
   transition: transform 0.1s ease-in;
 }
 #contact {
+  /* border: solid; */
   border-radius: 1em;
   margin-top: 2em;
   display: flex;
@@ -126,7 +130,7 @@ h2 {
 
 /*-------Shared---------------------------------------*/
 #sub-section {
-  /* border: solid; */
+  border: solid;
   border-radius: 1em;
   display: flex;
   flex-direction: row;
@@ -135,6 +139,7 @@ h2 {
 }
 
 #sub-list {
+  /* border: solid; */
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -200,6 +205,7 @@ h2 {
 }
 #robot {
   /* This the entire robotics part of the site.*/
+  /* background-color: gray; */
   /*background color is default to the body's color*/
   border: solid;
   border-radius: 1em;
@@ -271,6 +277,7 @@ h2 {
 
 #options-list {
   /* This is list of picture options "Cars, Robotics, Maker Space"*/
+  border: solid;
   border-radius: 1em;
   display: flex;
   flex-direction: row;
@@ -288,6 +295,7 @@ h2 {
   transition: transform 0.1s ease-in;
 }
 #contact {
+  /* border: solid; */
   border-radius: 1em;
   margin-top: 2em;
   display: flex;
@@ -296,6 +304,7 @@ h2 {
 }
 
 #contact-link {
+  border: solid;
   border-radius: 1em;
   background-color: white;
   text-decoration: underline;
